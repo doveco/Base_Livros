@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base Livros</title>
+</head>
+
+<body>
+    <h1>BASE LIVROS</h1>
+
+    <p>Faça uma página HTML que salve as informações de livros, tais como: ano de publicação, título do livro e autor.
+        Monte um array de objetos com essas informações. Na página também deve constar uma opção de filtrar o livro
+        favorito pelo título, crie essa função usando o filter e exiba as informações do livro encontrado na página.
+        Caso não exista, exiba uma mensagem informando que não foi encontrado.</p>
+
+        <h2> LISTA DE LIVROS </h2>
+
+    <div>
+        <form id="livroForm">
+            <label for="anoPublicacao">Ano de Publicação:</label>
+            <input type="number" id="anoPublicacao" placeholder="Ano de Publicação"><br>
+
+            <label for="tituloLivro">Título do livro:</label>
+            <input type="text" id="tituloLivro" placeholder="Título do livro"><br>
+
+            <label for="autor">Autor:</label>
+            <input type="text" id="autor" placeholder="Autor"><br>
+
+            <button type="reset" id="adicionar" value="Adicionar" > ADICIONAR </button>
+        </form>
+    </div>
+
+    <h2> LIVRO PREFERIDO </h2>
+
+    <div>
+
+        <form id="livroFiltro">
+            <label for="livroFavorito">Digite o nome do seu livro favorito:</label>
+            <input type="text" id="livroFavorito" placeholder="Digite o nome do seu livro"><br>
+
+            <button type="reset" id="filtrar" value="Filtrar" > FILTRAR </button>
+
+    </div>
+
+      <script src="main.js"></script>
+
+</body>
+
+</html>
